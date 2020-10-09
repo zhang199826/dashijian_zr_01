@@ -39,7 +39,7 @@ $(function () {
       };
       layer.msg('注册成功，请登录');
       $("#link_login").click();
-    })
+    });
   });
 
   // 登录功能
@@ -58,12 +58,7 @@ $(function () {
         localStorage.setItem('token', res.token);
         location.href = '/index.html';
       }
-    })
-  })
-
-
-
-
-
+    });
+  });
 
 });
